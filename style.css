@@ -1,0 +1,16 @@
+#paiBall {
+    display: flex;
+    flex-flow: row wrap;
+}
+.ball {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 30px;
+    border: solid black;
+    border-radius: 50%;
+}
+#placar {
+    width: 50px;
+    border: solid red;
+}
