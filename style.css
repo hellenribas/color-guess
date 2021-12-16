@@ -26,6 +26,7 @@ main {
     border-radius: 30% 0%;
     margin-bottom: 10%;
     padding: 30px;
+    background-color: #2b6a4d;
 }
 
 #paiBall {
@@ -53,11 +54,12 @@ main {
     
 }
 #rgb-color {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Baloo Bhaijaan 2', cursive;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
     color: #f3e9ea;
+    margin-top: 70px;
 }
 #answer {
     font-family: 'Baloo Bhaijaan 2', cursive;
@@ -79,6 +81,9 @@ main {
 }
 #reset-game:hover {
     background-color: yellow;
+}
+#rgb-color:hover {
+    color: #00ffdd;
 }
 
 @keyframes light {
