@@ -45,7 +45,6 @@ function certoErrado(event) {
         text.innerText = "Acertou!";
         contador += 1;
         placar(contador);
-        reset();
     } else {
         text.innerText = "Errou! Tente novamente!";
     }
