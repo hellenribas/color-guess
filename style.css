@@ -1,94 +1,116 @@
+#body , html {
+  display: flex;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b6a4d;
+  color: #dcdfe5;
+  background-image: url(imagelight2.png);
+  background-position: top;
+  background-repeat: repeat;
 
-#body, html {
-    display: flex;
-    margin: 0px;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: #2b6a4d;
-    color: #dcdfe5;
-    background-image: url(imagelight2.png);
-    background-position:top;
-    background-repeat: repeat;
-   
 }
+
 h1 {
-    font-size: 70px;
-    font-family: 'Baloo Bhaijaan 2', cursive;
-    font-family: 'Chakra Petch', sans-serif;
-    animation: light 4s infinite alternate;
-    box-shadow: 5px 5px 5px 10px rgba(248, 255, 154, 0.637);
+  font-size: 70px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-family: 'Chakra Petch', sans-serif;
+  animation: light 4s infinite alternate;
+  box-shadow: 5px 5px 5px 10px rgba(248, 255, 154, 0.637);
 }
+
 main {
-    box-shadow: 8px 8px 8px 8px rgba(248, 255, 154, 0.658);
-    border-radius: 30% 0%;
-    margin-bottom: 10%;
-    padding: 30px;
-    background-color: #2b6a4d;
+  box-shadow: 8px 8px 8px 8px rgba(248, 255, 154, 0.658);
+  border-radius: 30% 0%;
+  margin-bottom: 10%;
+  padding: 30px;
+  background-color: #2b6a4d;
 }
 
 #paiBall {
-    display: flex;
-    flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
 }
+
 .ball {
-    width: 30px;
-    height: 30px;
-    margin: 10px;
-    padding: 30px;
-    border: solid black;
-    border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  padding: 30px;
+  border: solid black;
+  border-radius: 50%;
 }
+
 #placar {
-    text-align: center;
-    width: 50%;
-    height: 50%;
-    margin: 0 24%;
-    font-size: 35px;
-    font-family: 'Baloo Bhaijaan 2', cursive;
-    font-family: 'Chakra Petch', sans-serif;
-    color: #ffffff;
-    font-weight: 700;
-    
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  margin: 0 24%;
+  font-size: 35px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-family: 'Chakra Petch', sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+
 }
+
 #rgb-color {
-    font-size: 50px;
-    font-family: 'Baloo Bhaijaan 2', cursive;
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: 700;
-    color: #f3e9ea;
-    margin-top: 70px;
+  font-size: 50px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 700;
+  color: #f3e9ea;
+  margin-top: 70px;
 }
+
 #answer {
-    font-family: 'Baloo Bhaijaan 2', cursive;
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 27px;
-    font-weight: 700px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 27px;
+  font-weight: 700px;
 }
+
 #reset-game {
-    font-size: 20px;
-    font-family: 'Baloo Bhaijaan 2', cursive;
-    font-family: 'Chakra Petch', sans-serif;
-    margin-bottom: 2%;
-    margin-top: 2%;
-    border-radius: 10%;
-    background-color: #00ffdd;
+  font-size: 20px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-family: 'Chakra Petch', sans-serif;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  border-radius: 10%;
+  background-color: #0fd;
 }
+
 #score {
-    font-size: 40px;
+  font-size: 40px;
 }
+
 #reset-game:hover {
-    background-color: yellow;
+  background-color: yellow;
 }
+
 #rgb-color:hover {
-    color: #00ffdd;
+  color: #0fd;
 }
 
 @keyframes light {
-    0% {color: #8e0413;}
-    40% {color: greenyellow}
-    70% {color: rgb(255, 217, 0)}
-    100% {color: #00e1ff;};
+
+  0% {
+    color: #8e0413;
+  }
+
+  40% {
+    color: greenyellow;
+  }
+
+  70% {
+    color: rgb(255, 217, 0);
+  }
+
+  100% {
+    color: #00e1ff;
+  }
+
 }
