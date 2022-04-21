@@ -10,7 +10,7 @@
 ---
 ## O que foi desenvolvido
 
-- Foi um dos meus primeiros projetos no qual desenvolvo uma aplicação utilizando JavaScript, HTML5 e CSS3.
+- Foi um dos meus primeiros projetos no qual desenvolvi uma aplicação utilizando JavaScript, HTML5 e CSS3.
 
 - Color Guess é um jogo de adivinhação de cores em que sua pontuação é atualizada de acordo com os acertos.
 
